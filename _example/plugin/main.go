@@ -10,6 +10,7 @@ func main() {
 		customrules.NewEnumFieldNamesRequireZeroValueRule(),
 		customrules.NewEnumNamesNoMsgSuffixRule(),
 		customrules.NewMessageNamesSuffixedWithMsgRule(),
+		customrules.NewOneOfNamesLowerSnakeCaseRule(),
 		customrules.NewPackageNameLowerCaseUnderscoreRule(),
 		customrules.NewProto2FieldsAvoidRequiredRule(),
 		customrules.NewRepeatedFieldNamesSingularizedRule(),
